@@ -1,5 +1,5 @@
 # system-supermarket
-# 🛒 Sistema de Caixa para Supermercado
+# Sistema de Caixa para Supermercado
 
 Sistema de caixa (PDV – Ponto de Venda) desenvolvido para simular o funcionamento de um supermercado.  
 O sistema permite registrar produtos através do código de barras, calcular valores da venda, selecionar formas de pagamento e gerar uma nota fiscal simplificada.
@@ -11,19 +11,19 @@ O projeto foi desenvolvido com **arquitetura separada em frontend e backend**, s
 # 📸 Demonstração do Sistema
 
 ## Interface do Sistema
-![Sistema](assets/logotwo.png)
+![Sistema]
 
 ## Produtos Utilizados no Sistema
 Alguns produtos cadastrados no sistema:
 
-![Arroz](assets/arroz.png)
-![Feijão](assets/feijao.png)
-![Macarrão](assets/macarrao.png)
-![Refrigerante](assets/refrigerante.png)
+![Arroz]
+![Feijão]
+![Macarrão]
+![Refrigerante]
 
 ---
 
-# 🚀 Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 ## Backend
 - Java
@@ -48,7 +48,7 @@ Alguns produtos cadastrados no sistema:
 
 ---
 
-# 🏗 Arquitetura do Sistema
+# Arquitetura do Sistema
 
 O projeto segue uma arquitetura **Frontend + Backend + Banco de Dados**.
 
@@ -65,7 +65,7 @@ O frontend realiza requisições HTTP para o backend, que processa os dados e in
 
 ---
 
-# 🗄 Estrutura do Banco de Dados
+# Estrutura do Banco de Dados
 
 O sistema utiliza **quatro tabelas principais**.
 
@@ -133,30 +133,30 @@ Relacionamento:
 
 ---
 
-# ⚙️ Funcionalidades do Sistema
+# Funcionalidades do Sistema
 
-## 📦 Registro de Produtos
+## Registro de Produtos
 - Busca de produtos por código de barras
 - Exibição de nome, preço e imagem
 
-## 🛒 Carrinho de Compra
+## Carrinho de Compra
 - Adicionar produtos
 - Definir quantidade
 - Cancelar último item
 - Cálculo automático do total
 
-## 👤 Cadastro de Cliente
+## Cadastro de Cliente
 - Nome
 - Contato
 - CPF
 
-## 💳 Formas de Pagamento
+## Formas de Pagamento
 
 - Dinheiro (com cálculo de troco)
 - Pix (QR Code)
 - Cartão (crédito ou débito)
 
-## 🧾 Nota Fiscal
+## Nota Fiscal
 
 Após finalizar a venda, o sistema gera uma **nota fiscal simplificada**, contendo:
 
@@ -169,9 +169,9 @@ Também é possível **imprimir a nota diretamente pelo navegador**.
 
 ---
 
-# 💻 Como Executar o Projeto
+# Como Executar o Projeto
 
-## 1️⃣ Clonar o repositório
+## Clonar o repositório
 
 ```bash
 git clone https://github.com/JohnKevinDevs/system-supermarket.git
